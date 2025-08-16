@@ -38,6 +38,7 @@ public class GasCalculator {
 
         // ====================  ส่วนหัว (Header) ====================
         JLabel namePj = new JLabel("Gas Calculator", JLabel.CENTER);
+        namePj.setForeground(new Color(86,86,86));
         namePj.setPreferredSize(new Dimension(0, 100));
         namePj.setFont(font); // ใช้ฟอนต์ขนาด 100
 
